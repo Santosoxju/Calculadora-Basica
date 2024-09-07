@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 - Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PRACTICA 1 - CALCULADORA BASICA</h1>
+
+    <form id="calculadora-form">
+        <label for="num1">Num 1:</label>
+        <input type="text" id="num1" name="num1">
+        
+        <label for="num2">Num 2:</label>
+        <input type="text" id="num2" name="num2">
+
+        <label for="operacion"> </label>
+
+        <select id="operacion" name="operacion" required>
+            <option value="" disabled selected>Selecciona una operación</option>
+            <option value="sumar">Sumar</option>
+            <option value="restar">Restar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select>
+        
+
+        <button type="button" id="ejecutar">Ejecutar</button>
+
+        <!--<h2>Resulatdo: <span id="resultado"></span></h2>-->
+        <label for="resultado">Resultado:</label>
+        <resultado><input type="text" id="resultado" name="resultado" readonly></resultado>
+    
+    </form>
+
+   
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
