@@ -7,8 +7,8 @@ $(document).ready(function() {
         var resultado;
 
         // Verifica si los números son válidos
-        if (isNaN(num1) || isNaN(num2)) {
-            $('#resultado').text('Por favor, ingresa números válidos.');
+         if (isNaN(num1) || isNaN(num2)) {
+            $('#resultado').val('Ingrese números válidos.');
             return;
         }
 
