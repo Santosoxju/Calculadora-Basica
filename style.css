@@ -7,11 +7,12 @@ body {
 
 titulo {
         color: #036891; /* Color azul */
-        font-size: 1em;
+        font-size: 1.5em;
         background-color: #B3E5FC; /* Fondo celeste */
         padding: 10px; /* Espacio alrededor del texto */
         border-radius: 5px; /* Bordes redondeados para el rectángulo */
-        display: 100; /* Ajusta el fondo solo al tamaño del contenido */
+        display: 100; /* Ajusta el fondo de tamaño*/
+        font-weight: bold; /* Hace el texto en negrita */
 }
 
 /*h2{
